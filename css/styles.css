@@ -433,43 +433,63 @@
                                                 #productpagina main section:nth-of-type(9) p {
                                                     font-family: 'Jost', sans-serif;
                                                     font-size: 13px;
-                                                    font-weight: normal;
                                                     letter-spacing: .6px;
                                                     line-height: 20px;
                                                     color: #2d2d2d;
-                                                    align-items: center;
                                                     position: relative;
-                                                    left: 40px;
+                                                    padding-left: 55px;
+                                                    top: 10px;
                                                 }
                                                 
                                                 #productpagina main section:nth-of-type(9) #bezorgImg {
                                                     width: 28px;
                                                     height: auto;
                                                     position: relative;
-                                                    top: -120px;
-                                                    left: 2px;
+                                                    top: -110px;
+                                                    left: 16px;
                                                 }
                                                 
                                                 #productpagina main section:nth-of-type(9) #retourImg {
                                                     width: 18px;
                                                     height: auto;
                                                     position: relative;
-                                                    top: -87px;
-                                                    left: -25px;
+                                                    top: -76px;
+                                                    left: -9px;
                                                 }
                                                 
                                                 #productpagina main section:nth-of-type(9) #meerinfoImg {
                                                     width: 13px;
                                                     height: auto;
                                                     position: relative;
-                                                    top: -36px;
-                                                    left: 49px;
+                                                    top: -26px;
+                                                    left: 61px;
                                                 }
                                                 
                                                 #productpagina main section:nth-of-type(9) {
                                                     border: 1px solid#EEEEEE;
-                                                    max-width: 85%;
                                                     position: relative;
-                                                    left: 11px;
-                                                    top: -87px;
+                                                    top: -90px;
+                                                    width: 328px;
+                                                    left: 7px;
+                                                }
+                                                
+                                                #productpagina main section:nth-of-type(10) p {
+                                                    font-family: 'Jost', sans-serif;
+                                                    line-height: 1.7;
+                                                    letter-spacing: .8px;
+                                                    color: #666;
+                                                    font-size: 12px;
+                                                    text-decoration: underline;
+                                                    position: relative;
+                                                    left: 35px;
+                                                    top: -3px;
+                                                    width: 300px;
+                                                }
+                                                
+                                                #productpagina main section:nth-of-type(10) {
+                                                    border: 1px solid#EEEEEE;
+                                                    position: relative;
+                                                    top: -90px;
+                                                    width: 360px;
+                                                    left: 7px;
                                                 }
