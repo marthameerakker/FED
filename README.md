@@ -22,7 +22,7 @@ Martha van de Meerakker
 Blauw
 
 #### Je focus:
-Surface Plane
+Responsive
  
 </details>
 
@@ -31,21 +31,25 @@ Surface Plane
 
 
 ## Je website
-Zara
+Asos
 
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
 link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-https://www.zara.com/nl/ 
+https://www.asos.com/women/ 
+
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Resultaten pagina
+Home pagina
 <img src="images/resultaten.jpg">
 
+
+
+
 #### Screenshot(s) van de tweede pagina (small screen):
-Detail pagina
+Product pagina
 <img src="images/detail.jpg">
  
 </details>
