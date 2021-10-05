@@ -43,14 +43,16 @@ https://www.asos.com/women/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home pagina
-<img src="images/resultaten.jpg">
+<img src="images/resultaten.jpg">![home](https://user-images.githubusercontent.com/90323802/136040810-42fcde8a-e6a7-4512-bd81-a0b0a658a265.png)
+
 
 
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Product pagina
-<img src="images/detail.jpg">
+<img src="images/detail.jpg">![bproduct](https://user-images.githubusercontent.com/90323802/136040832-5e0e8ebd-e15c-4e39-9ac7-14b60d0b9967.png)
+
  
 </details>
 
@@ -64,10 +66,12 @@ Product pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" <img width="476" alt="breakdown" src="https://user-images.githubusercontent.com/90323802/136040936-275bddae-d5c5-4fca-8971-0b845feb21db.png">
+ width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img width="301" alt="menu" src="https://user-images.githubusercontent.com/90323802/136040951-30339b0a-c4cd-4dc7-a0fc-d2bdf95b4bd7.png">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -80,7 +84,8 @@ Product pagina
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details>!
+
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
