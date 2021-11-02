@@ -1,3 +1,14 @@
+var hamburger = document.querySelector('header > button:first-of-type');
+var hamburgerClose = document.querySelector('header > nav:first-of-type > section > button:last-of-type');
+var menu = document.querySelector('header nav:first-of-type');
+
+function toggleMenu() {
+    menu.classList.toggle('open');
+}
+
+hamburger.addEventListener('click', toggleMenu);
+hamburgerClose.addEventListener('click', toggleMenu);
+
 function createCaroCarrousel(carrouselID) {
     let carrousel = document.querySelector("#" + carrouselID);
     let carrouselElementsContainer = carrousel.querySelector(":scope > ul");
@@ -24,6 +35,11 @@ function createCaroCarrousel(carrouselID) {
 
                 // nieuwe element current element maken
                 updateCurrentElement(newElementID);
+
+                // scrollLeft van de container aanpassen
+                let theElement = carrousel.querySelector("#" + newElementID);
+                let elementOffset = theElement.offsetLeft;
+                carrouselElementsContainer.scrollLeft = elementOffset;
 
                 // de bolletjes updaten
                 updateBolletjes(newElementID);
@@ -99,3 +115,42 @@ function createCaroCarrousel(carrouselID) {
     createCaroCarrousel("justBolletjes");
     //je kunt hier ook meerdere carrousellen activeren
 })();
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
+var section = document.querySelector('div');
+
+function hideDetailsMenu(e) {
+
+    var text = e.target;
+
+    if (text.innerText == 'TOON MEER') {
+        text.innerText = 'TOON MINDER'
+    } else {
+        text.innerText = 'TOON MEER'
+    }
+    section.classList.toggle('hide')
+}
+
+var button = document.querySelector('.hide-menu button');
+
+button.addEventListener('click', hideDetailsMenu);

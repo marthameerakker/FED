@@ -1,0 +1,828 @@
+                                                                                                                        body {
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 3em 0 0 0;
+                                                                                                                            box-sizing: border-box;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header {
+                                                                                                                            position: fixed;
+                                                                                                                            left: 0;
+                                                                                                                            right: 0;
+                                                                                                                            top: 0;
+                                                                                                                            z-index: 10;
+                                                                                                                            display: flex;
+                                                                                                                            background-color: #2d2d2d;
+                                                                                                                            height: 3em;
+                                                                                                                        }
+                                                                                                                        /* logo */
+                                                                                                                        
+                                                                                                                        header>a {
+                                                                                                                            width: 5em;
+                                                                                                                            margin: 0.75em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header>a img {
+                                                                                                                            width: 100%;
+                                                                                                                            height: auto;
+                                                                                                                        }
+                                                                                                                        /* button */
+                                                                                                                        
+                                                                                                                        header button {
+                                                                                                                            appearance: none;
+                                                                                                                            border: none;
+                                                                                                                            padding: 0;
+                                                                                                                            height: 3em;
+                                                                                                                            width: 3em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header button img {
+                                                                                                                            height: 100%;
+                                                                                                                            width: auto;
+                                                                                                                        }
+                                                                                                                        /* utilities menu */
+                                                                                                                        
+                                                                                                                        header ul {
+                                                                                                                            display: flex;
+                                                                                                                            gap: 50px;
+                                                                                                                            list-style: none;
+                                                                                                                            margin: 0.5;
+                                                                                                                            padding: 0;
+                                                                                                                            height: 100%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header ul li {
+                                                                                                                            height: 80%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header ul li a {
+                                                                                                                            display: block;
+                                                                                                                            height: 100%;
+                                                                                                                            padding: 70%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header ul a img {
+                                                                                                                            position: absolute;
+                                                                                                                            margin-left: 40px;
+                                                                                                                            height: 40%;
+                                                                                                                            width: auto;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        main img {
+                                                                                                                            width: 100%;
+                                                                                                                            height: auto;
+                                                                                                                        }
+                                                                                                                        /* categories */
+                                                                                                                        
+                                                                                                                        main section {
+                                                                                                                            padding: 1em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        main section ul {
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 0;
+                                                                                                                            list-style: none;
+                                                                                                                            display: grid;
+                                                                                                                            grid-template-columns: 1fr 1fr;
+                                                                                                                            gap: 1em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        main section ul li {
+                                                                                                                            display: flex;
+                                                                                                                            flex-direction: column-reverse;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        main section ul a img {
+                                                                                                                            width: 100%;
+                                                                                                                            height: auto;
+                                                                                                                            display: block;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:first-of-type h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-size: 14px;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:first-of-type p {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-size: 15px;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                            order: -2;
+                                                                                                                            margin: 0;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(2) h1 {
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                            font-size: 20px;
+                                                                                                                            position: relative;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(2) p {
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                            font-size: 20px;
+                                                                                                                            position: relative;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(2) button {
+                                                                                                                            border: 2px solid#2d2d2d;
+                                                                                                                            margin: 6px 0px 10px;
+                                                                                                                            padding: 9px 14px;
+                                                                                                                            background-color: white;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            min-width: 184px;
+                                                                                                                            min-height: 44px;
+                                                                                                                            font-size: 16px;
+                                                                                                                            line-height: 39px;
+                                                                                                                            font-weight: 700;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            left: calc(50% - 92px);
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(2) button:hover {
+                                                                                                                            background-color: black;
+                                                                                                                            border: 2px solid black;
+                                                                                                                            color: white;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(2) button:active {
+                                                                                                                            background-color: black;
+                                                                                                                            border: 2px solid black;
+                                                                                                                            color: white;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(3) {
+                                                                                                                            background-color: rgb(31, 73, 70);
+                                                                                                                            padding: 25px;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: white;
+                                                                                                                            display: flex;
+                                                                                                                            flex-direction: column;
+                                                                                                                            align-items: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:nth-of-type(3) p {
+                                                                                                                            font-family: 'Comfortaa', cursive;
+                                                                                                                            font-size: 30px;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                            margin: 0;
+                                                                                                                            margin-bottom: 20px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:last-of-type h1 {
+                                                                                                                            font-size: 18px;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            margin-top: 30px;
+                                                                                                                            grid-column: 1/-1;
+                                                                                                                            text-align: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #home section:last-of-type {
+                                                                                                                            display: flex;
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 0;
+                                                                                                                            list-style: none;
+                                                                                                                            display: grid;
+                                                                                                                            grid-template-columns: 1fr 1fr;
+                                                                                                                            gap: 1em;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        footer {
+                                                                                                                            background-color: rgb(213, 213, 213);
+                                                                                                                            padding: 3px;
+                                                                                                                            display: flex;
+                                                                                                                            vertical-align: baseline;
+                                                                                                                            justify-content: space-around;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        footer p {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 12px;
+                                                                                                                        }
+                                                                                                                        /* product pagina */
+                                                                                                                        /******************************/
+                                                                                                                        /* DE CAROCARROUSEL CONTAINER */
+                                                                                                                        /******************************/
+                                                                                                                        
+                                                                                                                        .caroCarrousel {
+                                                                                                                            /* basis waarden die door de hele carrousel gebruikt worden */
+                                                                                                                            /* kun je zelf aanpassen */
+                                                                                                                            position: relative;
+                                                                                                                            outline: none;
+                                                                                                                            padding: 0;
+                                                                                                                            margin: 0;
+                                                                                                                        }
+                                                                                                                        /************************************/
+                                                                                                                        /* de carrousel elementen container */
+                                                                                                                        
+                                                                                                                        .caroCarrousel>ul {
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 0;
+                                                                                                                            list-style: none;
+                                                                                                                            display: flex;
+                                                                                                                            /* handmatig scrollen is mogelijk */
+                                                                                                                            overflow: hidden;
+                                                                                                                        }
+                                                                                                                        /**************************/
+                                                                                                                        /* de carrousel elementen */
+                                                                                                                        
+                                                                                                                        .caroCarrousel>ul li {
+                                                                                                                            flex-basis: 100%;
+                                                                                                                            flex-shrink: 0;
+                                                                                                                        }
+                                                                                                                        /****************/
+                                                                                                                        /* DE BOLLETJES */
+                                                                                                                        /****************/
+                                                                                                                        /* de bolletjes container */
+                                                                                                                        
+                                                                                                                        .caroCarrousel nav ul {
+                                                                                                                            position: absolute;
+                                                                                                                            left: 2em;
+                                                                                                                            right: 2em;
+                                                                                                                            bottom: 0;
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 2em;
+                                                                                                                            list-style: none;
+                                                                                                                            display: flex;
+                                                                                                                            flex-wrap: wrap;
+                                                                                                                            justify-content: center;
+                                                                                                                        }
+                                                                                                                        /* de bolletjes wrapper */
+                                                                                                                        
+                                                                                                                        .caroCarrousel nav li {
+                                                                                                                            margin: .25em;
+                                                                                                                            padding: 0;
+                                                                                                                        }
+                                                                                                                        /* de bolletjes */
+                                                                                                                        
+                                                                                                                        .caroCarrousel>nav a {
+                                                                                                                            display: block;
+                                                                                                                            width: 10px;
+                                                                                                                            height: 10px;
+                                                                                                                            background-color: rgba(255, 255, 255, 0.8);
+                                                                                                                            border-radius: 25px;
+                                                                                                                            border: 1px solid rgba(153, 153, 153, 0.8);
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .caroCarrousel>nav a:hover,
+                                                                                                                        .caroCarrousel>nav a:focus {
+                                                                                                                            border: 1px solid rgba(255, 255, 255, 0.8);
+                                                                                                                            background-color: rgba(56, 56, 56, 0.8);
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(2) h1 {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 10;
+                                                                                                                            font-size: 20px;
+                                                                                                                            line-height: 1.3;
+                                                                                                                            letter-spacing: 1.3px;
+                                                                                                                            padding-bottom: 12px;
+                                                                                                                            display: inline-block;
+                                                                                                                            max-width: 95%;
+                                                                                                                            text-align: left;
+                                                                                                                            padding: 20px 0px 12px 2px;
+                                                                                                                            margin: auto;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(2) img {
+                                                                                                                            width: 17px;
+                                                                                                                            height: 20px;
+                                                                                                                            position: absolute;
+                                                                                                                            right: 10px;
+                                                                                                                            margin: 22px 0px 0px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(2) h2 {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 17.5px;
+                                                                                                                            display: flex;
+                                                                                                                            margin: 5px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -10px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(3) {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            background-color: #cde2f5;
+                                                                                                                            background-image: url(data:image/svg+xml;base64,IDxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCc+PGNpcmNsZSBjeD0nMTMuNScgY3k9JzYnIHI9JzEnIGZpbGw9JyMyZDJkMmQnLz48cGF0aCBkPSdNMTEuMiAxLjVsNi42LjUuNSA2LjctOS40IDkuNy03LjItNy4zIDkuNS05LjZ6JyBmaWxsPSdub25lJyBzdHJva2U9JyMyZDJkMmQnIHN0cm9rZS13aWR0aD0nMicvPjwvc3ZnPg==);
+                                                                                                                            background-repeat: no-repeat;
+                                                                                                                            background-position: 18px 15px;
+                                                                                                                            margin-top: -10px;
+                                                                                                                            margin-left: 10px;
+                                                                                                                            margin-right: 10px;
+                                                                                                                            padding: 10px 10px 15px 56px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(3) p {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 15px;
+                                                                                                                            padding: 0;
+                                                                                                                            margin: 0;
+                                                                                                                            display: block;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(4) p strong {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 13px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 1.7px;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            padding-right: 6px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(4) p {
+                                                                                                                            font-size: 14px;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            margin: 0;
+                                                                                                                            position: relative;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(5) p {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 13px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 1.7px;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -10px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(6) img {
+                                                                                                                            width: 22px;
+                                                                                                                            height: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -65px;
+                                                                                                                            left: 133px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(6) p {
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 14px;
+                                                                                                                            font-weight: 400;
+                                                                                                                            line-height: normal;
+                                                                                                                            text-decoration: underline;
+                                                                                                                            width: 100;
+                                                                                                                            position: relative;
+                                                                                                                            margin-left: 162px;
+                                                                                                                            margin-top: -90px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(7) select {
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            border: solid 1px #999;
+                                                                                                                            background-color: white;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 16px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            padding-top: 5px;
+                                                                                                                            padding-bottom: 5px;
+                                                                                                                            padding-left: 5px;
+                                                                                                                            outline: none;
+                                                                                                                            position: relative;
+                                                                                                                            left: 1px;
+                                                                                                                            top: -65px;
+                                                                                                                            width: 341px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(8) button {
+                                                                                                                            background-color: #018849;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: white;
+                                                                                                                            border: none;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            height: 41px;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            font-weight: 700;
+                                                                                                                            font-size: 14px;
+                                                                                                                            text-align: center;
+                                                                                                                            width: 282px;
+                                                                                                                            position: relative;
+                                                                                                                            left: 2px;
+                                                                                                                            top: -93px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(8) img {
+                                                                                                                            width: 50px;
+                                                                                                                            height: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -75px;
+                                                                                                                            left: 15px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(9) p {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 13px;
+                                                                                                                            letter-spacing: .6px;
+                                                                                                                            line-height: 20px;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            position: relative;
+                                                                                                                            padding-left: 55px;
+                                                                                                                            top: 10px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(9) #bezorgImg {
+                                                                                                                            width: 28px;
+                                                                                                                            height: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -110px;
+                                                                                                                            left: 16px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(9) #retourImg {
+                                                                                                                            width: 18px;
+                                                                                                                            height: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -76px;
+                                                                                                                            left: -9px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(9) #meerinfoImg {
+                                                                                                                            width: 13px;
+                                                                                                                            height: auto;
+                                                                                                                            position: relative;
+                                                                                                                            top: -26px;
+                                                                                                                            left: 61px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(9) {
+                                                                                                                            border: 1px solid#EEEEEE;
+                                                                                                                            position: relative;
+                                                                                                                            top: -90px;
+                                                                                                                            width: 328px;
+                                                                                                                            left: 7px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(10) p {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: .8px;
+                                                                                                                            color: #666;
+                                                                                                                            font-size: 12px;
+                                                                                                                            text-decoration: underline;
+                                                                                                                            position: relative;
+                                                                                                                            left: 12px;
+                                                                                                                            top: -15px;
+                                                                                                                            width: 300px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(10) {
+                                                                                                                            border: 1px solid#EEEEEE;
+                                                                                                                            position: relative;
+                                                                                                                            top: -90px;
+                                                                                                                            width: 328px;
+                                                                                                                            height: 15px;
+                                                                                                                            left: 7px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(11) h1 {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-weight: 700;
+                                                                                                                            font-size: 12px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 1.7px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            position: relative;
+                                                                                                                            top: -15px;
+                                                                                                                            left: -5px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(11) p {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 13px;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            line-height: 1.57;
+                                                                                                                            bottom: 20px;
+                                                                                                                            width: 300px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -24px;
+                                                                                                                            right: 5px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(11) {
+                                                                                                                            background-color: #eee;
+                                                                                                                            position: relative;
+                                                                                                                            top: -70px;
+                                                                                                                            height: 58px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(12) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -90px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(12) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -100px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(12) ul {
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -100px;
+                                                                                                                            left: 15px;
+                                                                                                                            display: flex;
+                                                                                                                            flex-direction: column;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main>section:nth-of-type(12) ul li {
+                                                                                                                            display: list-item;
+                                                                                                                            list-style: disc;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(1) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -130px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(1) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -140px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(2) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -190px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(2) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -198px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(3) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -240px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(3) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 0.8;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -220px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(4) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -258px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(4) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -265px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(5) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            color: #999;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            margin-bottom: 5px;
+                                                                                                                            margin-top: 20px;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -310px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(5) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -320px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main div section:nth-of-type(6) p {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-weight: 400;
+                                                                                                                            font-size: 15px;
+                                                                                                                            line-height: 1.5;
+                                                                                                                            letter-spacing: 0.4px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            -webkit-font-smoothing: antialiased;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            position: relative;
+                                                                                                                            top: -360px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(13) button {
+                                                                                                                            font-style: normal;
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-weight: 700;
+                                                                                                                            font-size: 14px;
+                                                                                                                            line-height: 1.7;
+                                                                                                                            letter-spacing: 2px;
+                                                                                                                            color: #2D2D2D;
+                                                                                                                            background-color: white;
+                                                                                                                            border: 2px solid #ddd;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            padding: 5px 57px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -350px;
+                                                                                                                            left: 43px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(13) hr {
+                                                                                                                            width: 377px;
+                                                                                                                            position: relative;
+                                                                                                                            top: -318px;
+                                                                                                                            left: -20px;
+                                                                                                                            border-top: 1px solid #eee;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(14) h1 {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            font-size: 17px;
+                                                                                                                            font-weight: bold;
+                                                                                                                            letter-spacing: .8px;
+                                                                                                                            line-height: 24px;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                            position: relative;
+                                                                                                                            top: -350px;
+                                                                                                                            left: -4px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(15) ul {
+                                                                                                                            display: flex;
+                                                                                                                            flex-wrap: nowrap;
+                                                                                                                            position: relative;
+                                                                                                                            top: -390px;
+                                                                                                                            width: 100%;
+                                                                                                                            overflow-x: auto;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(15) li {
+                                                                                                                            flex-shrink: 0;
+                                                                                                                            width: 300px;
+                                                                                                                            flex-direction: column;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(15) li img {
+                                                                                                                            width: 100%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        div {
+                                                                                                                            height: 100%;
+                                                                                                                            overflow-y: hidden;
+                                                                                                                            transition: height .6s;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        div.hide {
+                                                                                                                            height: 50px;
+                                                                                                                            margin-bottom: 200px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(16) button {
+                                                                                                                            font-family: 'Jost', sans-serif;
+                                                                                                                            width: 374px;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                            border: none;
+                                                                                                                            background-color: #f8f8f8;
+                                                                                                                            padding: 20px 0;
+                                                                                                                            cursor: pointer;
+                                                                                                                            text-transform: uppercase;
+                                                                                                                            cursor: pointer;
+                                                                                                                            font-size: 14px;
+                                                                                                                            font-weight: bold;
+                                                                                                                            letter-spacing: .8px;
+                                                                                                                            line-height: 16px;
+                                                                                                                            color: #2d2d2d;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        #productpagina main section:nth-of-type(16) button img {
+                                                                                                                            width: 15px;
+                                                                                                                            height: 20px;
+                                                                                                                            margin-left: -10px;
+                                                                                                                        }
