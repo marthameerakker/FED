@@ -247,8 +247,15 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://flaviocopes.com/how-to-add-event-listener-multiple-elements-javascript/ (event listeners voor meerdere elementen) (hartjes animatie)
+2. https://css-tricks.com/animating-svg-css/ (werken met svg in css)
+3. https://codepen.io/shooft/pen/ZEpXmrg (bolletjes slideshow)
+4. https://www.w3schools.com/howto/howto_js_scroll_to_top.asp (back to top js)
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior (scroll behavior)
+6. https://developer.mozilla.org/en-US/docs/Web/CSS/order (order text)
+7. https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes (keyframes bij animatie)
+8. https://developer.mozilla.org/en-US/docs/Web/CSS/transform (transform bij animatie)
+9. https://www.w3schools.com/cssref/pr_pos_overflow.asp (overflow:hidden bij toon meer/ minder knop)
+10. https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode?retiredLocale=nl (animation-fill-mode bij animatie)
 
 </details>
