@@ -87,12 +87,12 @@ Uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
- Deze week merkte ik dat ik het lastig vond om op te starten met het maken van de header. Hiervan ging de html wel vanzelfsprekend, maar moest ik nog even wat uitvogelen met de css. Uiteindelijk is het wel goed gekomen met wat hulp van Sanne, zie hieronder. 
+Deze week merkte ik dat ik het lastig vond om op te starten met het maken van de header. Hiervan ging de html wel vanzelfsprekend, maar moest ik nog even wat uitvogelen met de css. Uiteindelijk is het wel goed gekomen met wat hulp van Sanne, zie hieronder. 
  
  <img width="959" alt="Schermafbeelding 2021-11-11 om 13 41 14" src="https://user-images.githubusercontent.com/90323802/141300538-34503921-b01d-40cc-91bb-64e755122abc.png">
  
 
-<img width="229" alt="Schermafbeelding 2021-11-11 om 13 48 35" src="https://user-images.githubusercontent.com/90323802/141300744-66796825-9fab-4859-9ddb-145c6b75dbfc.png"
+<img width="229" alt="Schermafbeelding 2021-11-11 om 13 48 35" src="https://user-images.githubusercontent.com/90323802/141301103-3c633f4f-85f8-4453-b3a4-ed2607dab8bf.png">
 
  
 
@@ -123,7 +123,14 @@ We hebben met z'n drieën een gesprek gehad met Caro. Hier hebben we het over ge
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ Ik merkte dat ik deze week niet zo heel veel tijd had besteed aan FED, doordat we deze week voor vormgeving een belangrijke opdracht hadden. Hierdoor merkte ik dat ik wat achterliep en ben ik uiteindelijk aan het einde van de week snel gaan verdiepen in hoe ik mijn tweede pagina wil gaan aanpakken. Na het gesprek met Caro over de slideshow kon ik hiermee verder zie hieronder. 
+ 
+ 
  <img width="1220" alt="Schermafbeelding 2021-11-11 om 13 40 41" src="https://user-images.githubusercontent.com/90323802/141300502-425b41e7-557f-460d-b375-b37d65fdcd9a.png">
+ 
+ 
+<img width="282" alt="Schermafbeelding 2021-11-11 om 13 53 50" src="https://user-images.githubusercontent.com/90323802/141301447-c0da75a6-78bb-4c57-8cba-72e9d2a67a24.png">
 
  
 
