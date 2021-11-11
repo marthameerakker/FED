@@ -95,20 +95,15 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Vera: Hoe plaats ik verschillende soorten teksten over afbeeldingen? En hoe houd ik de afbeelding dan ook een link?
+Sidney: Hoe maak ik een hamburgermenu? Javascript transitions van de homepage.
+Martha: Hoe maak je iets responsive? Hoe maak je een hamburgermenu?
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+We hebben met z'n drieën een gesprek gehad met Caro. Hier hebben we het over gehad waar we tegenaan liepen en hoe we het beste een aantal dingen kunnen gaan aanpakken. Bijvoorbeeld hoe je het beste tekst over afbeeldingen kunt plaatsen, deze info had vooral Vera nodig. Sidney en ik hadden de vraag over de hamburgermenu. Hier zijn we vanwege tijdsdruk niet zo heel erg op diep in gegaan, maar kwam het er op neer dat Sidney en ik meer naar de opdrachten op DlO moeten gaan kijken en ons meer gaan verdiepen. Een groot deel staat hier ook op en kun je er zelf mee oefenen eerst om bepaalde onderdelen onder de knie te kunnen krijgen.
 
 </details>
 
@@ -128,21 +123,14 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Vera: Hoe maak je een goede carrousel? En wat kan ik doen met mijn hero image dat verandert bij een breakpoint?
+Sidney: Hoe maak je een carrousel?
+Martha: Hoe maak je een slideshow/ carrousel? 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
+ 
+Deze week hebben we een gesprek met Midas gehad. En hebben we het voornamelijk over carrousels gehad, hier hadden we met z'n allen wat mee te maken. Dit gesprek heeft ons veel goeds gedaan en konden we makkelijk weer verder met het maken van dit onderdeel. Verder heb ik over de slideshow niet meer kunnen vragen dus heb ik besloten om Caro een berichtje te sturen die mij hier wellicht mee kon helpen. Tijdens de meeting vertelde ze mij dat ze eigenlijk niet veel van Javascript af weet en heeft ze mij de code gegeven van haar die ze ooit heeft gebruikt. Hiermee ben ik zelf wat mee gaan experimenteren en heb ik het mijn eigen er van gemaakt. 
 </details>
 
 
@@ -157,28 +145,15 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Screen reader
+Toen ik het ging uittesten met de screenreader viel mij op dat hij veel dingen oversloeg, hij kon geen afbeeldingen voor lezen omdat deze geen alt hadden.
+Door dit te kunnen oplossen moet ik deze dus wel toevoegen en kan het voorgelezen worden door de screenreader. 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Tab toets
+Ook hier merkte ik dat het niet zo goed ging van navigeren naar bepaalde elementen. Om dit te kunnen voorkomen zal ik dus meer labels moeten toevoegen. 
 
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Parkissonstest + toegankelijkheidsbril
+Zelf heb ik de parkissontest gedaan, wat ik zelf niet perse ooit had ervaren. Een heel gek gevoel waardoor je minder makkelijk op dingen kan klikken of typen. Je krijgt de hele tijd als het ware een schok en doordat mijn website nog niet helemaal af was kon ik niet een grote conclusie trekken maar wel door een aantal knoppen groot te maken zodat de gebruiker bij een schok of diegene uitschiet alsnog hier gemakkelijk op kan klikken. Dit geldt hetzelfde voor de bril. 
 
 </details>
 
@@ -198,20 +173,15 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Vera: Hoe kan ik een dropdown maken in mijn footer?
+Sidney: Hoe stel ik een uitklapbare menu op?
+Martha: Hoe stel ik mijn hamburgermenu op?
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Deze week hebben we een gesprek met Sanne gehad. We hebben het hier vooral gehad over uitklapbare menu's, hier had ik zelf niet perse heel veel mee te maken maar wel handig om te zien hoe dit uberhaupt werkt. Wel heb ik gezien hoe je een hamburgermenu ongeveer opstelt wat erg handig was. Dit hebben we geleerd door eigenlijk te kijken naar het live coderen van Sanne en konden we ondertussen vragen hierover stellen. Ik merkte dat ik deze week niet heel veel vragen had, want ik was lekker bezig met het maken van mijn tweede pagina. 
 
 </details>
 
@@ -226,6 +196,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+ Ik merkte dat de vier weken voor mij erg weinig waren, ik moet altijd er opstarten met programmeren en loop vaak snel vast tijdens het proces. Hierdoor heb ik mijn website voor het eindgesprek ook niet af kunnen krijgen helaas en ben ik voor de herkansing gegaan. 
 
 ### Screenshot(s)
 
