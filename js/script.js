@@ -1,3 +1,7 @@
+/************************/
+/* HAMBURGER MENU */
+/************************/
+
 var hamburger = document.querySelector('header > button:first-of-type');
 var hamburgerClose = document.querySelector('header > nav:first-of-type > section > button:last-of-type');
 var menu = document.querySelector('header nav:first-of-type');
@@ -112,14 +116,17 @@ function createCaroCarrousel(carrouselID) {
 // nadat de pagina geladen is, de carrousels activeren
 (function() {
     // hier de id gebruiken van de section in de html
-    createCaroCarrousel("justBolletjes");
-    //je kunt hier ook meerdere carrousellen activeren
-})();
+    createCarrousel("justBolletjes");
+
+});
+
+
+/************************/
+/* TERUG NAAR BOVEN */
+/************************/
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
-
-
 
 
 // When the user clicks on the button, scroll to the top of the document
@@ -128,6 +135,9 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+/************************/
+/* ACCORDION */
+/************************/
 
 var section = document.querySelector('.accordion');
 
@@ -146,8 +156,14 @@ function hideDetailsMenu(e) {
 }
 
 var button = document.querySelector('button#toonmeer-minder');
+if (button) {
+    button.addEventListener('click', hideDetailsMenu);
+}
 
-button.addEventListener('click', hideDetailsMenu);
+
+/************************/
+/* HARTJES ANIMATIE */
+/************************/
 
 var likeButton = document.querySelectorAll('.likebutton').forEach(button => {
     button.addEventListener('click', event => {
