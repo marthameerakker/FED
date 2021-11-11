@@ -22,7 +22,7 @@ Martha van de Meerakker
 Blauw
 
 #### Je focus:
-Responsive
+Surface plane
  
 </details>
 
