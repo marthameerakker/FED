@@ -82,10 +82,19 @@ https://www.asos.com/women/
 
 <details>!
 
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>
+Uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Deze week merkte ik dat ik het lastig vond om op te starten met het maken van de header. Hiervan ging de html wel vanzelfsprekend, maar moest ik nog even wat uitvogelen met de css. Uiteindelijk is het wel goed gekomen met wat hulp van Sanne, zie hieronder. 
+ 
+ <img width="959" alt="Schermafbeelding 2021-11-11 om 13 41 14" src="https://user-images.githubusercontent.com/90323802/141300538-34503921-b01d-40cc-91bb-64e755122abc.png">
+ 
+
+<img width="229" alt="Schermafbeelding 2021-11-11 om 13 48 35" src="https://user-images.githubusercontent.com/90323802/141300744-66796825-9fab-4859-9ddb-145c6b75dbfc.png"
+
+ 
 
 
 ### Agenda voor meeting
@@ -114,6 +123,9 @@ We hebben met z'n drieën een gesprek gehad met Caro. Hier hebben we het over ge
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ <img width="1220" alt="Schermafbeelding 2021-11-11 om 13 40 41" src="https://user-images.githubusercontent.com/90323802/141300502-425b41e7-557f-460d-b375-b37d65fdcd9a.png">
+
+ 
 
 
 ### Agenda voor meeting
@@ -192,6 +204,9 @@ Deze week hebben we een gesprek met Sanne gehad. We hebben het hier vooral gehad
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ <img width="410" alt="Schermafbeelding 2021-11-11 om 13 44 04" src="https://user-images.githubusercontent.com/90323802/141300576-af9379fd-bde3-49f3-8b8d-151a7e6593bc.png">
+
+ 
 
 Ik merkte dat de vier weken voor mij erg weinig waren, ik moet altijd er opstarten met programmeren en loop vaak snel vast tijdens het proces. Hierdoor heb ik mijn website voor het eindgesprek ook niet af kunnen krijgen helaas en ben ik voor de herkansing gegaan. Snel ben ik dus gelijk mijn tijd gaan gebruiken om het verder af te kunnen maken. Tijdens het begin hiervan merkte ik dat ik veel met tops aan het werken was en dat er een soort witruimte onstond in mijn website. Ik ben toen naar Ymaro gegaan om te kijken wat dit was en hij gaf aan dat het beste was om al deze tops te verwijderen en verder te gaan. Hierdoor raakte mijn site natuurlijk helemaal in de war en moest ik opeens veel tijd besteden aan de pagina opnieuw stylen. Hierna kon ik pas beginnen met waar ik eigenlijk mee aan wou beginnen. Namelijk de surface plane, ik heb rond deze periode toch een switch willen maken omdat dit goed bij mijn site paste aangezien er veel onderdelen hiervan in voor kwamen en zou het mij dus ook tijd besparen. Ik merkte dat ik hier en daar met Javascript moest gaan werken en dat ik hier af en toe erg veel moeite mee had. Toen ben ik Joris gaan inschakelen mijn studentassistent van vorig jaar die mij altijd goed kon helpen. We zijn samen gaan zitten om de animatie te maken, en na bloed zweet en tranen is het uiteindelijk gelukt. Nadat ik het af heb gekregen ben ik ott de conclusie gekomen om gelijk vanaf het begin meer tijd aan zo'n project te steken en eerder om hulp te vragen voordat het  faataal mis gaat.
 
