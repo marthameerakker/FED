@@ -119,16 +119,8 @@ function createCaroCarrousel(carrouselID) {
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() { scrollFunction() };
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
+
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
@@ -137,20 +129,28 @@ function topFunction() {
 }
 
 
-var section = document.querySelector('div');
+var section = document.querySelector('.accordion');
 
 function hideDetailsMenu(e) {
 
-    var text = e.target;
+    var button = e.target;
 
-    if (text.innerText == 'TOON MEER') {
-        text.innerText = 'TOON MINDER'
+
+    if (button.innerText == 'TOON MEER') {
+        button.innerText = 'TOON MINDER';
     } else {
-        text.innerText = 'TOON MEER'
+        button.innerText = 'TOON MEER';
+
     }
-    section.classList.toggle('hide')
+    section.classList.toggle('expanded')
 }
 
-var button = document.querySelector('.hide-menu button');
+var button = document.querySelector('button#toonmeer-minder');
 
 button.addEventListener('click', hideDetailsMenu);
+
+var likeButton = document.querySelectorAll('.likebutton').forEach(button => {
+    button.addEventListener('click', event => {
+        event.target.classList.toggle("liked")
+    })
+})
