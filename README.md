@@ -183,8 +183,15 @@ Zelf heb ik de parkissontest gedaan, wat ik zelf niet perse ooit had ervaren. Ee
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+Na veel onderzoek gedaan te hebben ben ik ook begonnen met het hamburgermenu dit ging met de html prima en wat lastiger met de javascript. Maar uiteindelijk ben ik op dit resultaat gekomen, na met klasgenoten het hierover te hebben. Zie hieronder.
+ 
+ <img width="567" alt="Schermafbeelding 2021-11-11 om 14 20 55" src="https://user-images.githubusercontent.com/90323802/141305406-16d6329b-c7c5-43a9-9392-d6a3f28aa6c6.png">
 
+<img width="793" alt="Schermafbeelding 2021-11-11 om 14 21 05" src="https://user-images.githubusercontent.com/90323802/141305413-1b319046-7f91-4778-affc-acf5009b210d.png">
+<img width="277" alt="Schermafbeelding 2021-11-11 om 14 22 50" src="https://user-images.githubusercontent.com/90323802/141305528-2c8f0bd9-dca2-4f48-abc2-d1882605d2a1.png">
 
+ 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
