@@ -212,14 +212,27 @@ Deze week hebben we een gesprek met Sanne gehad. We hebben het hier vooral gehad
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
  <img width="410" alt="Schermafbeelding 2021-11-11 om 13 44 04" src="https://user-images.githubusercontent.com/90323802/141300576-af9379fd-bde3-49f3-8b8d-151a7e6593bc.png">
-
  
+Zoals je hier kan zien ben ik veel met tops gaan werken waardoor de website steeds slechter werd opgebouwd. Ik ben hierna ook gaan werken met classes en zonder tops, zie hieronder. 
+
+ <img width="291" alt="Schermafbeelding 2021-11-11 om 13 56 43" src="https://user-images.githubusercontent.com/90323802/141301879-b368476a-2db4-437d-8aa3-c0aad3fbd4e7.png">
+ 
+Ook het maken van de animatie vond ik erg lastig om mee te beginnen, maar ben ik gaan werken met svg's ipv png's zodat het makkelijker was om deze aan te kunnen passen in de CSS.
+ 
+<img width="957" alt="Schermafbeelding 2021-11-11 om 13 59 21" src="https://user-images.githubusercontent.com/90323802/141302235-b4d2cfd9-651a-41cf-8f79-9bb75eaf84c4.png">
+
+<img width="419" alt="Schermafbeelding 2021-11-11 om 13 59 30" src="https://user-images.githubusercontent.com/90323802/141302251-b7323796-a246-4640-a95e-33f4ac1b0b78.png">
+
 
 Ik merkte dat de vier weken voor mij erg weinig waren, ik moet altijd er opstarten met programmeren en loop vaak snel vast tijdens het proces. Hierdoor heb ik mijn website voor het eindgesprek ook niet af kunnen krijgen helaas en ben ik voor de herkansing gegaan. Snel ben ik dus gelijk mijn tijd gaan gebruiken om het verder af te kunnen maken. Tijdens het begin hiervan merkte ik dat ik veel met tops aan het werken was en dat er een soort witruimte onstond in mijn website. Ik ben toen naar Ymaro gegaan om te kijken wat dit was en hij gaf aan dat het beste was om al deze tops te verwijderen en verder te gaan. Hierdoor raakte mijn site natuurlijk helemaal in de war en moest ik opeens veel tijd besteden aan de pagina opnieuw stylen. Hierna kon ik pas beginnen met waar ik eigenlijk mee aan wou beginnen. Namelijk de surface plane, ik heb rond deze periode toch een switch willen maken omdat dit goed bij mijn site paste aangezien er veel onderdelen hiervan in voor kwamen en zou het mij dus ook tijd besparen. Ik merkte dat ik hier en daar met Javascript moest gaan werken en dat ik hier af en toe erg veel moeite mee had. Toen ben ik Joris gaan inschakelen mijn studentassistent van vorig jaar die mij altijd goed kon helpen. We zijn samen gaan zitten om de animatie te maken, en na bloed zweet en tranen is het uiteindelijk gelukt. Nadat ik het af heb gekregen ben ik ott de conclusie gekomen om gelijk vanaf het begin meer tijd aan zo'n project te steken en eerder om hulp te vragen voordat het  faataal mis gaat.
 
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+ ![eindresultaat1](https://user-images.githubusercontent.com/90323802/141302593-6d79a7cd-e687-4b08-a54e-7ea22de1f1d5.png)
+![eindresultaat2](https://user-images.githubusercontent.com/90323802/141302605-c7b3f71a-a20f-4768-a8f6-0b502a0e10d2.png)
+
+ 
 
 </details>
 
