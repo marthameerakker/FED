@@ -42,8 +42,7 @@ https://www.asos.com/women/
 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home pagina
-<img src="images/resultaten.jpg">![home](https://user-images.githubusercontent.com/90323802/136040810-42fcde8a-e6a7-4512-bd81-a0b0a658a265.png)
+![home](https://user-images.githubusercontent.com/90323802/136040810-42fcde8a-e6a7-4512-bd81-a0b0a658a265.png)
 
 
 
